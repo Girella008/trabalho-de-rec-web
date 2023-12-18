@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1E1E1E;
+    color: white;
+    font-family: sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    height: 10vh;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+#intro h2{
+    margin: 1%;
+}
+#intro p{
+    margin-bottom: 3vw;
+}
+#vida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    text-align: justify;
+}
+#vida div{
+    display: flex;
+    align-items: center
+;
+}
+#vida img{
+    width: 350px;
+    height: 432,5px;
+    margin-left: 18vw;
+}
+.titulo{
+    font-size: 30px;
+    margin-top: 5%;
+}
+h4{
+    margin-bottom: 2vh;
+}
+footer{
+    background-color: black;
+    color:white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+hr{
+    height: 5vh;
+}
