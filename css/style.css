@@ -64,13 +64,14 @@ footer{
     justify-content: center;
     align-items: center;
 }
+footer div{
+    display: flex;
+    
+}
 a{
     text-decoration: none;
     color: white;
 }
 a:hover{
     text-decoration: underline;
-}
-hr{
-    height: 5vh;
 }
